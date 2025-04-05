@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AnkurTunes - Spotify Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-something"
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>AnkurTunes</h2>
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-search"></i> Search</li>
+        <li><i class="fas fa-book"></i> Your Library</li>
+      </ul>
+    </aside>
+
+    <div class="main-area">
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="search-bar">
+          <input type="text" placeholder="🔍 Search your favorite artist..." />
+        </div>
+        <div class="top-buttons">
+          <button class="btn install">Install App</button>
+          <button class="btn signup">Sign Up</button>
+          <button class="btn login">Log In</button>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <h1>🎵 Trending Artists</h1>
+        <div class="cards">
+          <div class="card">
+            <img src="Arjit singh.jpeg" alt="Arijit Singh" />
+            <p>Arijit Singh</p>
+            <button onclick="playSong('Tum Hi Ho')">▶️ Play</button>
+          </div>
+          <div class="card">
+            <img src="Sonu nigam.jpeg" alt="Sonu Nigam" />
+            <p>Sonu Nigam</p>
+            <button onclick="playSong('Kal Ho Na Ho')">▶️ Play</button>
+          </div>
+          <div class="card">
+            <img src="Kk.jpeg" alt="KK" />
+            <p>KK</p>
+            <button onclick="playSong('Yaaron')">▶️ Play</button>
+          </div>
+          <div class="card">
+            <img src="Honey singh.jpeg" alt="Honey Singh" />
+            <p>Honey Singh</p>
+            <button onclick="playSong('Desi Kalakaar')">▶️ Play</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer Player -->
+<footer class="player" id="player-bar">
+    <p>🎶 Now Playing: Nothing</p>
+  
+    <div class="footer-links">
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">For the Record</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h4>Communities</h4>
+        <ul>
+          <li><a href="#">For Artists</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Web Player</a></li>
+          <li><a href="#">Free Mobile App</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section social">
+        <h4>Follow Us</h4>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
